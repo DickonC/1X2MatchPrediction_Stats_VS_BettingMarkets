@@ -1,0 +1,64 @@
+feature,group,stage,kept,reason,eps2,p_bonf,MI,MI_null95
+Home_H2H_PPG,A (non-market),2.1 correlation,False,redundant with Home_H2H_GDPG (rho=+0.92); Home_H2H_GDPG has higher MI with result,0.0602,0.0,0.0312,0.0129
+OddHome,M (market),2.1 correlation,False,redundant with ProbHome (rho=-1.00); ProbHome has higher MI with result,0.1853,0.0,0.1047,0.008
+ProbAway,M (market),2.1 correlation,False,redundant with ProbHome (rho=-1.00); ProbHome has higher MI with result,0.1849,0.0,0.1096,0.0113
+OddAway,M (market),2.1 correlation,False,redundant with ProbHome (rho=+1.00); ProbHome has higher MI with result,0.1845,0.0,0.1017,0.0132
+MaxHome,M (market),2.1 correlation,False,redundant with ProbHome (rho=-1.00); ProbHome has higher MI with result,0.1848,0.0,0.1112,0.0123
+MaxAway,M (market),2.1 correlation,False,redundant with ProbHome (rho=+1.00); ProbHome has higher MI with result,0.1854,0.0,0.1054,0.012
+HandiSize,M (market),2.1 correlation,False,redundant with ProbHome (rho=-0.93); ProbHome has higher MI with result,0.162,0.0,0.0936,0.0089
+OddDraw,M (market),2.1 correlation,False,redundant with ProbDraw (rho=-0.98); ProbDraw has higher MI with result,0.0264,0.0,0.0202,0.0087
+MaxDraw,M (market),2.1 correlation,False,redundant with ProbDraw (rho=-0.97); ProbDraw has higher MI with result,0.0272,0.0,0.024,0.0137
+Over25,M (market),2.1 correlation,False,redundant with MaxOver25 (rho=+0.99); MaxOver25 has higher MI with result,0.0145,0.0,0.0127,0.0118
+Under25,M (market),2.1 correlation,False,redundant with MaxOver25 (rho=-0.99); MaxOver25 has higher MI with result,0.0129,0.0,0.012,0.0109
+MaxUnder25,M (market),2.1 correlation,False,redundant with MaxOver25 (rho=-0.99); MaxOver25 has higher MI with result,0.0137,0.0,0.0131,0.0075
+HandiAway,M (market),2.1 correlation,False,redundant with HandiHome (rho=-0.97); HandiHome has higher MI with result,0.0023,0.0084,0.0038,0.01
+EloChange2Home,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=0.63, eps2=0.0010, MI=0.0089 <= null 0.0101",0.001,0.626,0.0089,0.0101
+EloChange1Away,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0000, MI=0.0035 <= null 0.0064",0.0,1.0,0.0035,0.0064
+EloChange2Away,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0007, MI=0.0000 <= null 0.0065",0.0007,1.0,0.0,0.0065
+Home_Avg5_FoulsAgainst,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0003, MI=0.0034 <= null 0.0078",0.0003,1.0,0.0034,0.0078
+Home_Avg5_YellowFor,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0007, MI=0.0053 <= null 0.0083",0.0007,1.0,0.0053,0.0083
+Home_Avg5_RedFor,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0003, MI=0.0053 <= null 0.0061",0.0003,1.0,0.0053,0.0061
+Home_Avg5_RedAgainst,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=0.65, eps2=0.0010, MI=0.0034 <= null 0.0091",0.001,0.6501,0.0034,0.0091
+Away_Avg5_RedFor,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=0.41, eps2=0.0012, MI=0.0015 <= null 0.0065",0.0012,0.4053,0.0015,0.0065
+Away_Avg5_RedAgainst,A (non-market),2.2 feature vs class,False,"no detectable class difference: KW p_bonf=1.00, eps2=0.0000, MI=0.0033 <= null 0.0120",0.0,1.0,0.0033,0.012
+EloChange1Home,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.001,0.6375,0.0079,0.006
+Form3Home,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0214,0.0,0.0184,0.0126
+Form5Home,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0312,0.0,0.0179,0.0116
+Form3Away,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.021,0.0,0.013,0.0121
+Form5Away,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0292,0.0,0.0174,0.0091
+Form3Diff,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0435,0.0,0.0257,0.0091
+Home_Avg5_GoalsFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0253,0.0,0.0155,0.0084
+Home_Avg5_GoalsAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0201,0.0,0.0101,0.0077
+Home_Avg5_TargetAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0155,0.0,0.0063,0.0071
+Home_Avg5_CornersFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0214,0.0,0.0135,0.0098
+Home_Avg5_CornersAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (1/3 seeds); A+M run: Rejected (0/3 seeds),0.0247,0.0,0.0166,0.0099
+Home_Avg5_FoulsFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0025,0.0047,0.002,0.009
+Home_Avg5_YellowAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.006,0.0,0.0031,0.0081
+Away_Avg5_GoalsFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0271,0.0,0.0148,0.0115
+Away_Avg5_GoalsAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0175,0.0,0.004,0.0125
+Away_Avg5_TargetFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0219,0.0,0.0111,0.01
+Away_Avg5_TargetAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0231,0.0,0.0095,0.01
+Away_Avg5_CornersFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0215,0.0,0.0109,0.0035
+Away_Avg5_CornersAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (1/3 seeds); A+M run: Rejected (0/3 seeds),0.0279,0.0,0.0103,0.0158
+Away_Avg5_FoulsFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0061,0.0,0.006,0.0098
+Away_Avg5_FoulsAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0001,1.0,0.008,0.0063
+Away_Avg5_YellowFor,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0019,0.0333,0.0061,0.0069
+Away_Avg5_YellowAgainst,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0021,0.0148,0.004,0.0118
+Home_H2H_n,A (non-market),2.3 Boruta,False,A run: Rejected (0/3 seeds); A+M run: Rejected (0/3 seeds),0.0001,1.0,0.0079,0.0064
+HandiHome,M (market),2.3 Boruta,False,A+M run: Rejected (0/3 seeds),0.0026,0.0029,0.0049,0.0089
+BookmakerMargin,M (market),2.3 Boruta,False,A+M run: Rejected (0/3 seeds),0.0007,1.0,0.0238,0.0091
+HomeElo,A (non-market),2.4 VIF,False,"[A] multicollinear (VIF=inf) with ['AwayElo', 'EloDiff']; lowest Boruta importance of those",0.0772,0.0,0.0448,0.0069
+HomeElo,A (non-market),2.4 VIF,False,"[AM] multicollinear (VIF=inf) with ['AwayElo', 'EloDiff', 'ProbHome']; lowest Boruta importance of those",0.0772,0.0,0.0448,0.0069
+EloDiff,A (non-market),2.4 VIF,False,[AM] multicollinear (VIF=12) with ['ProbHome']; lowest Boruta importance of those,0.1651,0.0,0.1031,0.0063
+AwayElo,A (non-market),final,True,kept in A and AM,0.0771,0.0,0.0383,0.0123
+EloDiff,A (non-market),final,True,kept in A,0.1651,0.0,0.1031,0.0063
+Form5Diff,A (non-market),final,True,kept in A and AM,0.0609,0.0,0.035,0.0102
+Home_Avg5_ShotsFor,A (non-market),final,True,kept in A and AM,0.0325,0.0,0.0174,0.0152
+Home_Avg5_ShotsAgainst,A (non-market),final,True,kept in A and AM,0.0386,0.0,0.0196,0.0133
+Home_Avg5_TargetFor,A (non-market),final,True,kept in A and AM,0.0313,0.0,0.0195,0.0083
+Away_Avg5_ShotsFor,A (non-market),final,True,kept in A and AM,0.0444,0.0,0.0171,0.0073
+Away_Avg5_ShotsAgainst,A (non-market),final,True,kept in A and AM,0.0349,0.0,0.0169,0.0133
+Home_H2H_GDPG,A (non-market),final,True,kept in A and AM,0.0766,0.0,0.0484,0.0105
+MaxOver25,M (market),final,True,kept in AM,0.0138,0.0,0.0182,0.0076
+ProbHome,M (market),final,True,kept in AM,0.1847,0.0,0.1155,0.0069
+ProbDraw,M (market),final,True,kept in AM,0.0292,0.0,0.0309,0.0102

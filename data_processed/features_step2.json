@@ -1,0 +1,55 @@
+{
+  "A": [
+    "AwayElo",
+    "EloDiff",
+    "Form5Diff",
+    "Home_Avg5_ShotsFor",
+    "Home_Avg5_ShotsAgainst",
+    "Home_Avg5_TargetFor",
+    "Away_Avg5_ShotsFor",
+    "Away_Avg5_ShotsAgainst",
+    "Home_H2H_GDPG"
+  ],
+  "AM": [
+    "AwayElo",
+    "Form5Diff",
+    "Home_Avg5_ShotsFor",
+    "Home_Avg5_ShotsAgainst",
+    "Home_Avg5_TargetFor",
+    "Away_Avg5_ShotsFor",
+    "Away_Avg5_ShotsAgainst",
+    "Home_H2H_GDPG",
+    "ProbHome",
+    "ProbDraw",
+    "MaxOver25"
+  ],
+  "A_boruta_before_vif": [
+    "HomeElo",
+    "AwayElo",
+    "EloDiff",
+    "Form5Diff",
+    "Home_Avg5_ShotsFor",
+    "Home_Avg5_ShotsAgainst",
+    "Home_Avg5_TargetFor",
+    "Away_Avg5_ShotsFor",
+    "Away_Avg5_ShotsAgainst",
+    "Home_H2H_GDPG"
+  ],
+  "AM_boruta_before_vif": [
+    "HomeElo",
+    "AwayElo",
+    "EloDiff",
+    "Form5Diff",
+    "Home_Avg5_ShotsFor",
+    "Home_Avg5_ShotsAgainst",
+    "Home_Avg5_TargetFor",
+    "Away_Avg5_ShotsFor",
+    "Away_Avg5_ShotsAgainst",
+    "Home_H2H_GDPG",
+    "ProbHome",
+    "ProbDraw",
+    "MaxOver25"
+  ],
+  "tentative": [],
+  "notes": "A = Boruta-confirmed (majority of seeds) in the non-market-only run, then VIF-pruned; AM = same for the non-market + market run."
+}

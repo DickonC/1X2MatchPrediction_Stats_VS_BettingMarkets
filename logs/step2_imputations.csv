@@ -1,0 +1,9 @@
+column,split,cells,fill_value,reason
+Home_H2H_GDPG,train,179,0.0,teams never met before: no H2H evidence -> neutral goal difference 0 (Home_H2H_n = 0 flags it)
+Home_H2H_GDPG,val,10,0.0,teams never met before: no H2H evidence -> neutral goal difference 0 (Home_H2H_n = 0 flags it)
+Home_H2H_PPG,train,179,1.3481,teams never met before: fill with train mean PPG (Home_H2H_n = 0 flags it)
+Home_H2H_PPG,val,10,1.3481,teams never met before: fill with train mean PPG (Home_H2H_n = 0 flags it)
+HandiSize,test,1,-0.3,handicap odds missing for a handful of matches: train median
+HandiSize,train,10,-0.3,handicap odds missing for a handful of matches: train median
+HandiHome,train,10,1.92,handicap odds missing for a handful of matches: train median
+HandiAway,train,10,1.95,handicap odds missing for a handful of matches: train median

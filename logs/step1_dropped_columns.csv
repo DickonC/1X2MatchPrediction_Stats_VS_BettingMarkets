@@ -1,0 +1,29 @@
+column,reason
+FTHome,full-time goals (target info)
+FTAway,full-time goals (target info)
+HTHome,half-time score
+HTAway,half-time score
+HTResult,half-time result
+HomeShots,in-match stat
+AwayShots,in-match stat
+HomeTarget,in-match stat
+AwayTarget,in-match stat
+HomeFouls,in-match stat
+AwayFouls,in-match stat
+HomeCorners,in-match stat
+AwayCorners,in-match stat
+HomeYellow,in-match stat
+AwayYellow,in-match stat
+HomeRed,in-match stat
+AwayRed,in-match stat
+C_LTH,cluster prob built from in-match stats
+C_LTA,cluster prob built from in-match stats
+C_VHD,cluster prob built from in-match stats
+C_VAD,cluster prob built from in-match stats
+C_HTB,cluster prob built from in-match stats
+C_PHB,cluster prob built from in-match stats
+MatchTime,73% missing in EPL and not a planned feature
+Division,constant after filtering to E0
+Away_H2H_n,derived column not kept: identical to Home_H2H_n
+Away_H2H_GDPG,derived column not kept: = -Home_H2H_GDPG
+Away_H2H_PPG,derived column not kept: mirror of Home_H2H_PPG

@@ -1,0 +1,807 @@
+table,row_id,column,old,new,reason
+Matches,51532,HomeTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,62311,HomeTeam,Piacenza ,Piacenza,trailing whitespace in team name
+Matches,64343,HomeTeam,Heracles ,Heracles,trailing whitespace in team name
+Matches,64344,HomeTeam,Roda ,Roda,trailing whitespace in team name
+Matches,64345,HomeTeam,Ajax ,Ajax,trailing whitespace in team name
+Matches,64346,HomeTeam,Feyenoord ,Feyenoord,trailing whitespace in team name
+Matches,64347,HomeTeam,Graafschap ,Graafschap,trailing whitespace in team name
+Matches,64348,HomeTeam,Groningen ,Groningen,trailing whitespace in team name
+Matches,64349,HomeTeam,Utrecht ,Utrecht,trailing whitespace in team name
+Matches,64350,HomeTeam,Vitesse ,Vitesse,trailing whitespace in team name
+Matches,64351,HomeTeam,Willem II ,Willem II,trailing whitespace in team name
+Matches,73506,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,75175,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,76310,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,78064,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,78810,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,80259,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,81720,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,82235,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,82505,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,84094,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,84116,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,84837,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,85315,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,86517,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,86803,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,87308,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,87664,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,88223,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89023,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89441,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89604,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,90401,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,91202,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,91955,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,93059,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,94123,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,94574,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,94741,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,96538,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,97073,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,97373,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,97664,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,98329,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,99023,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,99605,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,99898,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,100942,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,101033,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,101783,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,108735,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,109357,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,110581,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,111794,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,112405,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,112537,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113038,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113341,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113719,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113795,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,114870,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,115331,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,115773,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,116469,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,117235,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,118819,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,121210,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,121487,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,121993,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,122667,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,122891,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,124511,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,124867,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,124990,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,125718,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,127312,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,127844,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,129486,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,130389,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,130872,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,134572,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,134962,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,135609,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,136308,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137160,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137550,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137820,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137981,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,138453,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,138575,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,139429,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,140179,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,140688,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,141264,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,141436,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,143123,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,145635,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,146163,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,146510,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,146583,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,147136,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,148755,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,150765,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,151269,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,152041,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,152572,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,153260,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,153505,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,153713,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,155273,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,156635,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,156668,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,157238,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,157509,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,157795,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,158248,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,159332,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,162125,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,162619,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,163352,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,164031,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,164329,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,165974,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,167196,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,169464,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,169832,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,170360,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,176051,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,176228,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,176552,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,177209,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,177905,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,178119,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,180175,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181008,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181540,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181884,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181976,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,182034,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,182583,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,183581,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,183833,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184326,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184391,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184919,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185102,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185391,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185996,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,186445,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,187044,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,188226,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,188620,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,189028,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,189831,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,191178,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,192091,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,192438,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,192718,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,193213,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,193654,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,194243,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,195177,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,195327,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,195466,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,196756,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,196823,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,197053,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,197089,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,197244,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,197487,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,197819,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,197977,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,198454,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,199157,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,199552,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,201407,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,202247,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,202792,HomeTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,205870,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,207789,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,208641,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209332,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209481,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209612,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209703,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209737,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,209954,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,210819,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,212738,HomeTeam,Ham-Kam,HamKam,same club under two names
+Matches,226793,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227122,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,227203,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227342,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227513,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,227645,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227890,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,228235,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,228374,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,228594,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,228606,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,229056,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,229207,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,229473,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,229476,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,230015,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,230062,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,230303,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,230386,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,230507,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,230847,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231065,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,231264,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231541,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,231916,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,231917,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,232221,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,232287,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,232525,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,232755,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233014,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,233050,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233362,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,233491,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233794,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,233887,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234171,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234266,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234522,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,234656,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234911,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,235121,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,235285,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,235396,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,235770,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,235898,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,236316,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,236458,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,236889,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,237203,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,237398,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,237422,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,237835,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,237945,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,238037,HomeTeam,M'gladbach,MGladbach,same club under two names
+Matches,238170,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,238471,HomeTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,42259,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,42544,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,42829,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,43365,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,43580,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,43855,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,44396,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,45261,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,45788,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,46206,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,46459,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,47069,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,47302,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,47859,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,48115,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,48423,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,48665,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,49281,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,49646,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,50114,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,50457,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,50975,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,51299,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,52698,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,53102,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,53363,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,53933,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,54409,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,54663,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,54899,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,55209,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,55429,AwayTeam,Kaiserslautern ,Kaiserslautern,trailing whitespace in team name
+Matches,76467,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,79262,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,79584,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,79616,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,79816,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,80636,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,80918,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,81108,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,82253,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,82847,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,84877,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,85645,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,86002,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,87883,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,88932,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89394,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89547,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89580,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,89590,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,90829,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,91310,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,91647,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,92350,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,92444,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,92769,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,93247,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,93688,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,94400,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,94918,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,95633,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,97123,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,98169,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,98972,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,99636,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,100177,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,100524,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,101742,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,104572,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,108490,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,109028,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,110198,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,110767,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,111238,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,112408,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,112626,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113297,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,113920,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,114526,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,115249,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,116215,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,117893,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,118013,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,118364,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,119090,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,119178,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,121361,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,121700,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,122122,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,122572,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,123675,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,124198,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,125266,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,125416,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,125768,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,127246,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,128492,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,128921,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,129130,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,129977,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,130580,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,131740,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,132098,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,134250,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,134747,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,135632,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,135884,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,136501,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137459,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,137901,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,138665,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,140986,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,142005,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,142673,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,144639,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,145224,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,146420,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,146649,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,148008,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,148328,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,149088,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,149667,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,150982,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,151512,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,152257,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,153162,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,153221,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,154076,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,154603,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,155173,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,156819,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,157412,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,157877,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,158629,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,158713,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,159141,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,161998,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,162097,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,163572,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,164784,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,166340,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,167796,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,168695,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,169136,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,170205,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,171016,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,172872,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,173479,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,173582,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,177599,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,178397,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,179664,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,180403,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181136,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,181630,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,183012,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184285,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184286,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,184834,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185020,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185339,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,185712,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,186209,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,186739,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,187486,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,188333,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,189369,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,189400,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,189739,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,190077,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,190190,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,192660,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,193016,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,193974,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,194687,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,194861,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,195381,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,195659,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,195943,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,196589,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,196803,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,196994,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,197147,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,197695,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,197919,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,198713,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,199447,AwayTeam,Colon Santa FE,Colon Santa Fe,same club under two names
+Matches,199667,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,200015,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,200533,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,200638,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,201151,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,201858,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,202484,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,204580,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,206814,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,207417,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,208145,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,208814,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,209870,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,210078,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,210521,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,213995,AwayTeam,Ham-Kam,HamKam,same club under two names
+Matches,226880,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227066,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227193,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,227308,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,227470,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,227663,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,228035,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,228055,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,228325,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,228417,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,228828,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,228830,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,229327,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,229369,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,229746,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,229797,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,229872,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,230195,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,230262,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,230427,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231054,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231153,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,231388,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231619,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,231738,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,232186,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,232277,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,232625,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,232748,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,233191,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,233197,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233541,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233561,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,233592,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,233942,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,234110,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234334,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234436,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,234547,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,234598,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,234901,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,235021,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,235200,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,235448,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,235777,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,236001,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,236090,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,236103,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,236590,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,236698,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,237104,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,237501,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,237545,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,237854,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,237888,AwayTeam,M'gladbach,MGladbach,same club under two names
+Matches,238069,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,238638,AwayTeam,Nott'm Forest,Nottm Forest,same club under two names
+Matches,238652,AwayTeam,M'gladbach,MGladbach,same club under two names
+EloRatings,33883,club,Ham-Kam,HamKam,same club under two names
+EloRatings,34291,club,Ham-Kam,HamKam,same club under two names
+EloRatings,34695,club,Ham-Kam,HamKam,same club under two names
+EloRatings,35099,club,Ham-Kam,HamKam,same club under two names
+EloRatings,35503,club,Ham-Kam,HamKam,same club under two names
+EloRatings,35907,club,Ham-Kam,HamKam,same club under two names
+EloRatings,36311,club,Ham-Kam,HamKam,same club under two names
+EloRatings,36715,club,Ham-Kam,HamKam,same club under two names
+EloRatings,37119,club,Ham-Kam,HamKam,same club under two names
+EloRatings,37523,club,Ham-Kam,HamKam,same club under two names
+EloRatings,37927,club,Ham-Kam,HamKam,same club under two names
+EloRatings,38331,club,Ham-Kam,HamKam,same club under two names
+EloRatings,38735,club,Ham-Kam,HamKam,same club under two names
+EloRatings,39142,club,Ham-Kam,HamKam,same club under two names
+EloRatings,39547,club,Ham-Kam,HamKam,same club under two names
+EloRatings,39952,club,Ham-Kam,HamKam,same club under two names
+EloRatings,40357,club,Ham-Kam,HamKam,same club under two names
+EloRatings,40762,club,Ham-Kam,HamKam,same club under two names
+EloRatings,41167,club,Ham-Kam,HamKam,same club under two names
+EloRatings,41572,club,Ham-Kam,HamKam,same club under two names
+EloRatings,41977,club,Ham-Kam,HamKam,same club under two names
+EloRatings,42382,club,Ham-Kam,HamKam,same club under two names
+EloRatings,42787,club,Ham-Kam,HamKam,same club under two names
+EloRatings,43192,club,Ham-Kam,HamKam,same club under two names
+EloRatings,43601,club,Ham-Kam,HamKam,same club under two names
+EloRatings,44012,club,Ham-Kam,HamKam,same club under two names
+EloRatings,44415,club,Ham-Kam,HamKam,same club under two names
+EloRatings,44818,club,Ham-Kam,HamKam,same club under two names
+EloRatings,45221,club,Ham-Kam,HamKam,same club under two names
+EloRatings,45624,club,Ham-Kam,HamKam,same club under two names
+EloRatings,46027,club,Ham-Kam,HamKam,same club under two names
+EloRatings,46430,club,Ham-Kam,HamKam,same club under two names
+EloRatings,46833,club,Ham-Kam,HamKam,same club under two names
+EloRatings,47236,club,Ham-Kam,HamKam,same club under two names
+EloRatings,47639,club,Ham-Kam,HamKam,same club under two names
+EloRatings,48042,club,Ham-Kam,HamKam,same club under two names
+EloRatings,48445,club,Ham-Kam,HamKam,same club under two names
+EloRatings,48840,club,Ham-Kam,HamKam,same club under two names
+EloRatings,49246,club,Ham-Kam,HamKam,same club under two names
+EloRatings,49652,club,Ham-Kam,HamKam,same club under two names
+EloRatings,50058,club,Ham-Kam,HamKam,same club under two names
+EloRatings,50464,club,Ham-Kam,HamKam,same club under two names
+EloRatings,50870,club,Ham-Kam,HamKam,same club under two names
+EloRatings,51276,club,Ham-Kam,HamKam,same club under two names
+EloRatings,51682,club,Ham-Kam,HamKam,same club under two names
+EloRatings,52088,club,Ham-Kam,HamKam,same club under two names
+EloRatings,52494,club,Ham-Kam,HamKam,same club under two names
+EloRatings,52900,club,Ham-Kam,HamKam,same club under two names
+EloRatings,53308,club,Ham-Kam,HamKam,same club under two names
+EloRatings,53717,club,Ham-Kam,HamKam,same club under two names
+EloRatings,54123,club,Ham-Kam,HamKam,same club under two names
+EloRatings,54529,club,Ham-Kam,HamKam,same club under two names
+EloRatings,54935,club,Ham-Kam,HamKam,same club under two names
+EloRatings,55341,club,Ham-Kam,HamKam,same club under two names
+EloRatings,55747,club,Ham-Kam,HamKam,same club under two names
+EloRatings,56153,club,Ham-Kam,HamKam,same club under two names
+EloRatings,56559,club,Ham-Kam,HamKam,same club under two names
+EloRatings,56965,club,Ham-Kam,HamKam,same club under two names
+EloRatings,57371,club,Ham-Kam,HamKam,same club under two names
+EloRatings,57777,club,Ham-Kam,HamKam,same club under two names
+EloRatings,58183,club,Ham-Kam,HamKam,same club under two names
+EloRatings,58590,club,Ham-Kam,HamKam,same club under two names
+EloRatings,58998,club,Ham-Kam,HamKam,same club under two names
+EloRatings,59406,club,Ham-Kam,HamKam,same club under two names
+EloRatings,59814,club,Ham-Kam,HamKam,same club under two names
+EloRatings,60222,club,Ham-Kam,HamKam,same club under two names
+EloRatings,60630,club,Ham-Kam,HamKam,same club under two names
+EloRatings,61038,club,Ham-Kam,HamKam,same club under two names
+EloRatings,61446,club,Ham-Kam,HamKam,same club under two names
+EloRatings,61854,club,Ham-Kam,HamKam,same club under two names
+EloRatings,62262,club,Ham-Kam,HamKam,same club under two names
+EloRatings,62670,club,Ham-Kam,HamKam,same club under two names
+EloRatings,63081,club,Ham-Kam,HamKam,same club under two names
+EloRatings,72937,club,Ham-Kam,HamKam,same club under two names
+EloRatings,73353,club,Ham-Kam,HamKam,same club under two names
+EloRatings,73762,club,Ham-Kam,HamKam,same club under two names
+EloRatings,74171,club,Ham-Kam,HamKam,same club under two names
+EloRatings,74580,club,Ham-Kam,HamKam,same club under two names
+EloRatings,74989,club,Ham-Kam,HamKam,same club under two names
+EloRatings,75398,club,Ham-Kam,HamKam,same club under two names
+EloRatings,75807,club,Ham-Kam,HamKam,same club under two names
+EloRatings,76216,club,Ham-Kam,HamKam,same club under two names
+EloRatings,76625,club,Ham-Kam,HamKam,same club under two names
+EloRatings,77034,club,Ham-Kam,HamKam,same club under two names
+EloRatings,77443,club,Ham-Kam,HamKam,same club under two names
+EloRatings,77866,club,Ham-Kam,HamKam,same club under two names
+EloRatings,78303,club,Ham-Kam,HamKam,same club under two names
+EloRatings,78711,club,Ham-Kam,HamKam,same club under two names
+EloRatings,79119,club,Ham-Kam,HamKam,same club under two names
+EloRatings,79527,club,Ham-Kam,HamKam,same club under two names
+EloRatings,79935,club,Ham-Kam,HamKam,same club under two names
+EloRatings,80343,club,Ham-Kam,HamKam,same club under two names
+EloRatings,80751,club,Ham-Kam,HamKam,same club under two names
+EloRatings,81159,club,Ham-Kam,HamKam,same club under two names
+EloRatings,81567,club,Ham-Kam,HamKam,same club under two names
+EloRatings,81975,club,Ham-Kam,HamKam,same club under two names
+EloRatings,82383,club,Ham-Kam,HamKam,same club under two names
+EloRatings,82793,club,Ham-Kam,HamKam,same club under two names
+EloRatings,211099,club,Ham-Kam,HamKam,same club under two names
+EloRatings,211516,club,Ham-Kam,HamKam,same club under two names
+EloRatings,211928,club,Ham-Kam,HamKam,same club under two names
+EloRatings,212340,club,Ham-Kam,HamKam,same club under two names
+EloRatings,212752,club,Ham-Kam,HamKam,same club under two names
+EloRatings,213164,club,Ham-Kam,HamKam,same club under two names
+EloRatings,213576,club,Ham-Kam,HamKam,same club under two names
+EloRatings,213988,club,Ham-Kam,HamKam,same club under two names
+EloRatings,214400,club,Ham-Kam,HamKam,same club under two names
+EloRatings,214812,club,Ham-Kam,HamKam,same club under two names
+EloRatings,215224,club,Ham-Kam,HamKam,same club under two names
+EloRatings,215636,club,Ham-Kam,HamKam,same club under two names
+EloRatings,216059,club,Ham-Kam,HamKam,same club under two names
+EloRatings,216490,club,Ham-Kam,HamKam,same club under two names
+EloRatings,216901,club,Ham-Kam,HamKam,same club under two names
+EloRatings,217312,club,Ham-Kam,HamKam,same club under two names
+EloRatings,217723,club,Ham-Kam,HamKam,same club under two names
+EloRatings,218134,club,Ham-Kam,HamKam,same club under two names
+EloRatings,218545,club,Ham-Kam,HamKam,same club under two names
+EloRatings,218956,club,Ham-Kam,HamKam,same club under two names
+EloRatings,219367,club,Ham-Kam,HamKam,same club under two names
+EloRatings,219778,club,Ham-Kam,HamKam,same club under two names
+EloRatings,220189,club,Ham-Kam,HamKam,same club under two names
+EloRatings,220600,club,Ham-Kam,HamKam,same club under two names
+EloRatings,221017,club,Ham-Kam,HamKam,same club under two names
+EloRatings,221436,club,Ham-Kam,HamKam,same club under two names
+EloRatings,221849,club,Ham-Kam,HamKam,same club under two names
+EloRatings,222262,club,Ham-Kam,HamKam,same club under two names
+EloRatings,222675,club,Ham-Kam,HamKam,same club under two names
+EloRatings,223088,club,Ham-Kam,HamKam,same club under two names
+EloRatings,223501,club,Ham-Kam,HamKam,same club under two names
+EloRatings,223914,club,Ham-Kam,HamKam,same club under two names
+EloRatings,224327,club,Ham-Kam,HamKam,same club under two names
+EloRatings,224740,club,Ham-Kam,HamKam,same club under two names
+EloRatings,225153,club,Ham-Kam,HamKam,same club under two names
+EloRatings,225566,club,Ham-Kam,HamKam,same club under two names
+EloRatings,225994,club,Ham-Kam,HamKam,same club under two names
+EloRatings,226432,club,Ham-Kam,HamKam,same club under two names
+EloRatings,226840,club,Ham-Kam,HamKam,same club under two names
+EloRatings,227248,club,Ham-Kam,HamKam,same club under two names
+EloRatings,227656,club,Ham-Kam,HamKam,same club under two names
+EloRatings,228064,club,Ham-Kam,HamKam,same club under two names
+EloRatings,228472,club,Ham-Kam,HamKam,same club under two names
+EloRatings,228880,club,Ham-Kam,HamKam,same club under two names
+EloRatings,229288,club,Ham-Kam,HamKam,same club under two names
+EloRatings,229696,club,Ham-Kam,HamKam,same club under two names
+EloRatings,230104,club,Ham-Kam,HamKam,same club under two names
+EloRatings,230512,club,Ham-Kam,HamKam,same club under two names
+EloRatings,230922,club,Ham-Kam,HamKam,same club under two names
+EloRatings,231334,club,Ham-Kam,HamKam,same club under two names
+EloRatings,231742,club,Ham-Kam,HamKam,same club under two names
+EloRatings,232150,club,Ham-Kam,HamKam,same club under two names
+EloRatings,232558,club,Ham-Kam,HamKam,same club under two names
+EloRatings,232966,club,Ham-Kam,HamKam,same club under two names
+EloRatings,233374,club,Ham-Kam,HamKam,same club under two names
+EloRatings,233782,club,Ham-Kam,HamKam,same club under two names
+EloRatings,234190,club,Ham-Kam,HamKam,same club under two names
+EloRatings,234598,club,Ham-Kam,HamKam,same club under two names
+EloRatings,235006,club,Ham-Kam,HamKam,same club under two names
+EloRatings,235414,club,Ham-Kam,HamKam,same club under two names
+EloRatings,235822,club,Ham-Kam,HamKam,same club under two names
+EloRatings,236235,club,Ham-Kam,HamKam,same club under two names
+EloRatings,236642,club,Ham-Kam,HamKam,same club under two names
+EloRatings,237049,club,Ham-Kam,HamKam,same club under two names
+EloRatings,237456,club,Ham-Kam,HamKam,same club under two names
+EloRatings,237863,club,Ham-Kam,HamKam,same club under two names
+EloRatings,238270,club,Ham-Kam,HamKam,same club under two names
+EloRatings,238677,club,Ham-Kam,HamKam,same club under two names
+EloRatings,239084,club,Ham-Kam,HamKam,same club under two names
+EloRatings,239491,club,Ham-Kam,HamKam,same club under two names
+EloRatings,239898,club,Ham-Kam,HamKam,same club under two names
+EloRatings,240305,club,Ham-Kam,HamKam,same club under two names
+EloRatings,240712,club,Ham-Kam,HamKam,same club under two names
+EloRatings,240782,club,M'gladbach,MGladbach,same club under two names
+EloRatings,240821,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,241119,club,Ham-Kam,HamKam,same club under two names
+EloRatings,241189,club,M'gladbach,MGladbach,same club under two names
+EloRatings,241228,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,241526,club,Ham-Kam,HamKam,same club under two names
+EloRatings,241596,club,M'gladbach,MGladbach,same club under two names
+EloRatings,241635,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,241933,club,Ham-Kam,HamKam,same club under two names
+EloRatings,242003,club,M'gladbach,MGladbach,same club under two names
+EloRatings,242042,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,242342,club,Ham-Kam,HamKam,same club under two names
+EloRatings,242410,club,M'gladbach,MGladbach,same club under two names
+EloRatings,242449,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,242749,club,Ham-Kam,HamKam,same club under two names
+EloRatings,242817,club,M'gladbach,MGladbach,same club under two names
+EloRatings,242856,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,243156,club,Ham-Kam,HamKam,same club under two names
+EloRatings,243224,club,M'gladbach,MGladbach,same club under two names
+EloRatings,243263,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,243563,club,Ham-Kam,HamKam,same club under two names
+EloRatings,243631,club,M'gladbach,MGladbach,same club under two names
+EloRatings,243670,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,243970,club,Ham-Kam,HamKam,same club under two names
+EloRatings,244038,club,M'gladbach,MGladbach,same club under two names
+EloRatings,244077,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,244377,club,Ham-Kam,HamKam,same club under two names
+EloRatings,244445,club,M'gladbach,MGladbach,same club under two names
+EloRatings,244484,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,244784,club,Ham-Kam,HamKam,same club under two names
+EloRatings,244852,club,M'gladbach,MGladbach,same club under two names
+EloRatings,244891,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,245372,club,Ham-Kam,HamKam,same club under two names
+EloRatings,245515,club,M'gladbach,MGladbach,same club under two names
+EloRatings,245585,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,246267,club,Ham-Kam,HamKam,same club under two names
+EloRatings,246410,club,M'gladbach,MGladbach,same club under two names
+EloRatings,246480,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,247162,club,Ham-Kam,HamKam,same club under two names
+EloRatings,247305,club,M'gladbach,MGladbach,same club under two names
+EloRatings,247375,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,248057,club,Ham-Kam,HamKam,same club under two names
+EloRatings,248200,club,M'gladbach,MGladbach,same club under two names
+EloRatings,248270,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,248990,club,Ham-Kam,HamKam,same club under two names
+EloRatings,249139,club,M'gladbach,MGladbach,same club under two names
+EloRatings,249214,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,249961,club,Ham-Kam,HamKam,same club under two names
+EloRatings,250111,club,M'gladbach,MGladbach,same club under two names
+EloRatings,250187,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,250936,club,Ham-Kam,HamKam,same club under two names
+EloRatings,251086,club,M'gladbach,MGladbach,same club under two names
+EloRatings,251162,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,251911,club,Ham-Kam,HamKam,same club under two names
+EloRatings,252061,club,M'gladbach,MGladbach,same club under two names
+EloRatings,252137,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,252886,club,Ham-Kam,HamKam,same club under two names
+EloRatings,253036,club,M'gladbach,MGladbach,same club under two names
+EloRatings,253112,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,253861,club,Ham-Kam,HamKam,same club under two names
+EloRatings,254011,club,M'gladbach,MGladbach,same club under two names
+EloRatings,254087,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,254836,club,Ham-Kam,HamKam,same club under two names
+EloRatings,254986,club,M'gladbach,MGladbach,same club under two names
+EloRatings,255062,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,255811,club,Ham-Kam,HamKam,same club under two names
+EloRatings,255961,club,M'gladbach,MGladbach,same club under two names
+EloRatings,256037,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,256786,club,Ham-Kam,HamKam,same club under two names
+EloRatings,256936,club,M'gladbach,MGladbach,same club under two names
+EloRatings,257012,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,257761,club,Ham-Kam,HamKam,same club under two names
+EloRatings,257911,club,M'gladbach,MGladbach,same club under two names
+EloRatings,257987,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,258736,club,Ham-Kam,HamKam,same club under two names
+EloRatings,258886,club,M'gladbach,MGladbach,same club under two names
+EloRatings,258962,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,259711,club,Ham-Kam,HamKam,same club under two names
+EloRatings,259861,club,M'gladbach,MGladbach,same club under two names
+EloRatings,259937,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,260686,club,Ham-Kam,HamKam,same club under two names
+EloRatings,260836,club,M'gladbach,MGladbach,same club under two names
+EloRatings,260912,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,261661,club,Ham-Kam,HamKam,same club under two names
+EloRatings,261811,club,M'gladbach,MGladbach,same club under two names
+EloRatings,261887,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,262636,club,Ham-Kam,HamKam,same club under two names
+EloRatings,262786,club,M'gladbach,MGladbach,same club under two names
+EloRatings,262862,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,263611,club,Ham-Kam,HamKam,same club under two names
+EloRatings,263761,club,M'gladbach,MGladbach,same club under two names
+EloRatings,263837,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,264586,club,Ham-Kam,HamKam,same club under two names
+EloRatings,264736,club,M'gladbach,MGladbach,same club under two names
+EloRatings,264812,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,265561,club,Ham-Kam,HamKam,same club under two names
+EloRatings,265711,club,M'gladbach,MGladbach,same club under two names
+EloRatings,265787,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,266536,club,Ham-Kam,HamKam,same club under two names
+EloRatings,266686,club,M'gladbach,MGladbach,same club under two names
+EloRatings,266762,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,267511,club,Ham-Kam,HamKam,same club under two names
+EloRatings,267661,club,M'gladbach,MGladbach,same club under two names
+EloRatings,267737,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,268486,club,Ham-Kam,HamKam,same club under two names
+EloRatings,268636,club,M'gladbach,MGladbach,same club under two names
+EloRatings,268712,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,269461,club,Ham-Kam,HamKam,same club under two names
+EloRatings,269611,club,M'gladbach,MGladbach,same club under two names
+EloRatings,269687,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,270436,club,Ham-Kam,HamKam,same club under two names
+EloRatings,270586,club,M'gladbach,MGladbach,same club under two names
+EloRatings,270662,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,271411,club,Ham-Kam,HamKam,same club under two names
+EloRatings,271561,club,M'gladbach,MGladbach,same club under two names
+EloRatings,271637,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,272389,club,Ham-Kam,HamKam,same club under two names
+EloRatings,272542,club,M'gladbach,MGladbach,same club under two names
+EloRatings,272618,club,Nott'm Forest,Nottm Forest,same club under two names
+EloRatings,273373,club,Ham-Kam,HamKam,same club under two names
+EloRatings,273526,club,M'gladbach,MGladbach,same club under two names
+EloRatings,273602,club,Nott'm Forest,Nottm Forest,same club under two names
+Matches,226793,Form3Home,0.0,9.0,recomputed after team-name fix (raw value broken by Forest rename)
+Matches,226793,Form5Home,0.0,12.0,recomputed after team-name fix (raw value broken by Forest rename)
+Matches,226880,Form5Away,15.0,12.0,recomputed after team-name fix (raw value broken by Forest rename)
+Matches,226793,HomeElo,,1731.5,missing Elo filled from EloRatings after team-name fix
+Matches,226880,AwayElo,,1731.5,missing Elo filled from EloRatings after team-name fix
