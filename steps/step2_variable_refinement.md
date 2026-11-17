@@ -41,6 +41,8 @@ A  (non-market, 9):  AwayElo, EloDiff, Form5Diff, Home_Avg5_ShotsFor, Home_Avg5_
 
 AM (+ market, 11):   A without EloDiff  +  ProbHome, ProbDraw, MaxOver25
 (Bookies Probabilities effectively hold relevent info from EloDiff (High correlation))
+
+UPDATE 2026-11-17 → Step 3 uses EloDiff back in: combined = A (9) + 3 market = 12
 ```
 
 ---
@@ -112,5 +114,8 @@ AM (+ market, 11):   A without EloDiff  +  ProbHome, ProbDraw, MaxOver25
 - Keeping the highest-MI member of a cluster favours information over interpretability. In practice the kept features (`ProbHome`, `ProbDraw`, `H2H_GDPG`) are also the most interpretable.
 - Boruta importance comes from one model family (random forest). A feature rejected here could still help a linear model.
 
+## Update 2026-11-17: feature sets used in Step 3
+Agreed after the progress report: **`EloDiff` is added back** to the combined set, so the market set is exactly non-market + market. Step 3 uses three sets: `non_market` (= A, 9), `market` (ProbHome, ProbDraw, MaxOver25, 3) and `combined` (12). They are defined in `src/feature_sets.py`. `features_step2.json` is left unchanged as the record of what Step 2 produced.
+
 ## Next (Step 3)
-Baselines: always-Home (46.0% of train), bookmaker favourite (argmax of implied probabilities), and the implied probabilities themselves for log-loss. Then compare models trained on **A** vs **AM**.
+See [step3_modelling.md](step3_modelling.md). Models: LR, RF and KNN on all 3 sets. Baselines: Always-Home and the bookmaker's implied probabilities.
