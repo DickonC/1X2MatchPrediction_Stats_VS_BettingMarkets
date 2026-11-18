@@ -1,0 +1,7 @@
+model,feature_set,owner,accuracy,macro_f1,log_loss,brier,roc_auc,best_params,champion_2024_25,champion_2025_26
+LR,non_market,Dickon,0.5092,0.3803,1.0176,0.6106,0.6255,"{""C"": 100}",Liverpool,Arsenal
+LR,market,Dickon,0.5171,0.3865,1.0,0.5983,0.646,"{""C"": 100}",Liverpool,Arsenal
+LR,combined,Dickon,0.5092,0.3808,1.0045,0.601,0.6416,"{""C"": 100}",Liverpool,Arsenal
+RF,non_market,Dickon,0.5026,0.374,1.0197,0.6122,0.6232,"{""max_depth"": 10, ""min_samples_leaf"": 30, ""max_features"": ""sqrt"", ""class_weight"": null}",Man City,Arsenal
+RF,market,Dickon,0.5039,0.3761,1.0065,0.6034,0.6461,"{""max_depth"": 3, ""min_samples_leaf"": 1, ""max_features"": 1.0, ""class_weight"": null}",Liverpool,Man City
+RF,combined,Dickon,0.5079,0.3811,1.0038,0.602,0.647,"{""max_depth"": 5, ""min_samples_leaf"": 1, ""max_features"": 0.5, ""class_weight"": null}",Liverpool,Arsenal

@@ -59,20 +59,20 @@ Notes per model:
 |---|---|---|
 | Accuracy | argmax of predicted probabilities vs true result | ↑ |
 | Macro F1 | F1 per class (H, D, A), unweighted mean | ↑ |
-| Log loss | `sklearn.metrics.log_loss(y, P, labels=["H","D","A"])`, natural log | ↓ |
+| Log loss | mean of −ln(p of the actual result), natural log | ↓ |
 | Multiclass Brier | mean over matches of Σ_k (p_k − y_k)², **range 0–2** (sum over classes, not divided by 3) | ↓ |
-| ROC-AUC | one-vs-rest, **macro** average: `roc_auc_score(y, P, multi_class="ovr", average="macro", labels=["H","D","A"])` | ↑ |
+| ROC-AUC | one-vs-rest, **macro** average (mean of the 3 binary AUCs: H vs rest, D vs rest, A vs rest) | ↑ |
 
-⚠️ sklearn orders `predict_proba` columns alphabetically (`A, D, H`). **Reorder to `H, D, A`** (via `model.classes_`) before computing the metrics.
+⚠️ **Column-order trap:** sklearn orders `predict_proba` columns alphabetically (`A, D, H`), and `log_loss` / `roc_auc_score` **also assume that sorted order**. Passing H, D, A columns with `labels=["H","D","A"]` gives a **silently wrong log loss** and a `ValueError` for ROC-AUC. **Easiest fix: copy the `metrics()` and `proba_hda()` functions from `src/step3_lr_rf.py`.** They store probabilities as H, D, A and compute every metric explicitly, with a built-in check against sklearn.
 
 **Baselines' probabilities:** Always-Home predicts H for every match (accuracy, F1). A hard [1,0,0] gives infinite log loss, so it needs some probabilities for the probability metrics. **Faris decides how.** One option is the train class frequencies (H .460 / D .243 / A .297), which makes ROC-AUC 0.5 by construction. Bookmaker: probabilities = `ProbHome/ProbDraw/ProbAway`, prediction = argmax.
 
 ## Recording results
 Each person writes their test results to `results/` (one row per model × feature set):
 
-`results/test_metrics.csv` columns: `model, feature_set, owner, accuracy, macro_f1, log_loss, brier, roc_auc, best_params`
+`results/test_metrics.csv` columns: `model, feature_set, owner, accuracy, macro_f1, log_loss, brier, roc_auc, best_params, champion_2024_25, champion_2025_26` (champion = team with most expected points, 3·P(win) + P(draw), over the season; full tables in `results/league_tables_lr_rf.csv`)
 
-Also save per-match test probabilities (`results/preds_<model>_<feature_set>.csv`: `match_id, FTResult, pH, pD, pA`). That way any metric, the confusion matrix or the per-season accuracy (drift check) can be recomputed without retraining.
+Also save per-match test probabilities (`results/preds_<model>_<feature_set>.csv`: `match_id, Season, FTResult, pH, pD, pA`). That way any metric, the confusion matrix or the per-season accuracy (drift check) can be recomputed without retraining.
 
 Scripts: `src/step3_lr_rf.py` (Dickon), `src/step3_knn_baselines.py` (Faris).
 
@@ -80,12 +80,12 @@ Scripts: `src/step3_lr_rf.py` (Dickon), `src/step3_knn_baselines.py` (Faris).
 - [ ] LR-N · LR-M · LR-C: fit on train → pick settings on val → test metrics
 - [ ] RF-N · RF-M · RF-C: fit on train → pick settings on val → test metrics
 - [ ] Write 6 rows to `results/test_metrics.csv` + 6 prediction files
-- [ ] Record chosen hyperparameters + val scores in `logs/step3_run_log.md`
+- [ ] Record chosen hyperparameters + val scores: `logs/step3_lr_rf_run_log.md` + `logs/step3_lr_rf_tuning.csv` (written by `src/step3_lr_rf.py`)
 
 ## Notes for the report
 - **EloDiff and ProbHome are collinear in the `combined` set** (Spearman ρ = 0.94, VIF ≈ 12). That's why Step 2's VIF step had removed EloDiff, and we deliberately added it back so that `combined` = `non_market` + `market` exactly.
   - **Random forest:** unaffected. Trees just pick one of the two at each split. Feature importance gets *shared* between them, so neither looks as important as it really is.
-  - **Logistic regression:** predictions, and therefore all our metrics, are fine. The **individual coefficients** of EloDiff and ProbHome are unstable and can't be read as "the effect of EloDiff holding ProbHome fixed". L2 regularisation (sklearn's default) keeps the fit stable.
+  - **Logistic regression:** predictions, and therefore all our metrics, are fine. The **individual coefficients** of EloDiff and ProbHome are unstable and can't be read as "the effect of EloDiff holding ProbHome fixed". Tuning chose `C = 100`, but val log loss is flat for every C ≥ 1 (differences < 0.0001), so in practice LR is **unregularised**. Regularisation neither helps nor hurts here.
   - **In the report:** state this caveat, and don't draw conclusions from LR-C coefficients or RF-C importances for these two features. Compare *performance* across feature sets instead.
 - **Elo difference ≈ the odds** (ρ = 0.94) is itself a talking point: much of what the market knows is team strength.
 
@@ -94,3 +94,6 @@ UMAP visualisation and accuracy per test season (2024/25 vs 2025/26, drift in ho
 
 ## Open questions
 See "Open questions" in `plan.md`.
+
+## Extra: betting simulation (`src/step3_betting.py`)
+Reads **every** `results/preds_*.csv`, so Faris's KNN files are included automatically once they exist (just re-run it). Flat £1 stake per match on test. Two strategies: **favourite** (bet the model's most likely outcome) and **value** (bet only if model prob × odds > 1). Benchmarks: bookmaker favourite, always home. Odds: Bet365 (main) and best-available `Max*` (side result). Outputs `results/betting_results.csv` (ROI with 95% bootstrap CI, per season + overall) and `logs/step3_betting_run_log.md`.
