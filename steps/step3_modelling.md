@@ -82,6 +82,32 @@ Scripts: `src/step3_lr_rf.py` (Dickon), `src/step3_knn_baselines.py` (Faris).
 - [ ] Write 6 rows to `results/test_metrics.csv` + 6 prediction files
 - [ ] Record chosen hyperparameters + val scores: `logs/step3_lr_rf_run_log.md` + `logs/step3_lr_rf_tuning.csv` (written by `src/step3_lr_rf.py`)
 
+## Faris's checklist: KNN + baselines (`src/step3_knn_baselines.py`)
+- [x] KNN-N · KNN-M · KNN-C: `StandardScaler` + `KNeighborsClassifier` in a pipeline (scaler fitted on train only), fit on train → pick settings on val → test metrics
+  - Grid: `n_neighbors` ∈ {5, 10, 20, 30, 50, 75, 100, 150, 200, 300, 400, 500} × `weights` ∈ {uniform, distance} (24 per set). Selected by val log loss.
+  - Chosen: non_market **k = 200**, market **k = 100**, combined **k = 75**, all `uniform`. A small k gives 0 % probabilities, which log loss punishes heavily (`figures/step3/knn_k_tuning.png`).
+- [x] **Always-Home:** predicts H for every match. Probabilities = **train class frequencies** (H .460 / D .243 / A .297) for every match, so log loss and Brier are finite and ROC-AUC = 0.5 by construction. No champion (every team gets identical expected points).
+- [x] **Bookmaker:** `ProbHome/ProbDraw/ProbAway` (Bet365, margin removed; checked rows sum to 1); prediction = argmax.
+- [x] Write 5 rows to `results/test_metrics.csv` (owner = Faris; Dickon's rows untouched) + `results/preds_KNN_<set>.csv` × 3 + `results/league_tables_knn.csv`
+  - No preds files for the baselines: `step3_betting.py` would treat them as models, and it already has its own bookmaker / always-home benchmarks.
+- [x] Record chosen settings + val scores: `logs/step3_knn_baselines_run_log.md` + `logs/step3_knn_tuning.csv`
+- [x] Re-ran `src/step3_betting.py` so `results/betting_results.csv` includes KNN
+
+**Test results** (2024/25 + 2025/26, 760 matches):
+
+| Model | Accuracy | Macro F1 | Log loss | Brier | ROC-AUC |
+|---|---|---|---|---|---|
+| Always-Home | 0.417 | 0.196 | 1.084 | 0.657 | 0.500 |
+| **Bookmaker** | 0.516 | 0.386 | **0.995** | **0.595** | 0.648 |
+| KNN non_market | 0.484 | 0.362 | 1.028 | 0.617 | 0.614 |
+| KNN market | 0.504 | 0.393 | 1.006 | 0.602 | 0.653 |
+| KNN combined | 0.501 | 0.388 | 1.019 | 0.611 | 0.634 |
+
+- **The Bookmaker has the best log loss and Brier of all 11 rows.** No model beats it on the probability metrics; LR-market comes closest (1.000).
+- **KNN ranks market < combined < non_market on log loss, the same order as LR** (RF has combined marginally ahead of market, 1.004 vs 1.007). Adding the 9 non-market features to the market set makes KNN *worse* (1.006 → 1.019). Extra dimensions dilute the distance, a known KNN weakness.
+- **Validation looked better than test for every model,** e.g. KNN-market: val log loss 0.904 vs test 1.006, and the Bookmaker itself 0.909 vs 0.995. So 2024–26 was simply a harder, less home-friendly period (home wins 41.7 % vs 46 % in train), not KNN overfitting.
+- **Draws:** KNN-N predicts none. KNN-M predicts 25 draws (5 correct) and KNN-C 14 (4 correct), out of 197 actual draws.
+
 ## Notes for the report
 - **EloDiff and ProbHome are collinear in the `combined` set** (Spearman ρ = 0.94, VIF ≈ 12). That's why Step 2's VIF step had removed EloDiff, and we deliberately added it back so that `combined` = `non_market` + `market` exactly.
   - **Random forest:** unaffected. Trees just pick one of the two at each split. Feature importance gets *shared* between them, so neither looks as important as it really is.

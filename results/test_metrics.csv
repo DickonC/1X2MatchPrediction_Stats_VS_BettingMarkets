@@ -5,3 +5,8 @@ LR,combined,Dickon,0.5092,0.3808,1.0045,0.601,0.6416,"{""C"": 100}",Liverpool,Ar
 RF,non_market,Dickon,0.5026,0.374,1.0197,0.6122,0.6232,"{""max_depth"": 10, ""min_samples_leaf"": 30, ""max_features"": ""sqrt"", ""class_weight"": null}",Man City,Arsenal
 RF,market,Dickon,0.5039,0.3761,1.0065,0.6034,0.6461,"{""max_depth"": 3, ""min_samples_leaf"": 1, ""max_features"": 1.0, ""class_weight"": null}",Liverpool,Man City
 RF,combined,Dickon,0.5079,0.3811,1.0038,0.602,0.647,"{""max_depth"": 5, ""min_samples_leaf"": 1, ""max_features"": 0.5, ""class_weight"": null}",Liverpool,Arsenal
+AlwaysHome,none,Faris,0.4171,0.1962,1.0835,0.6568,0.5,,,
+Bookmaker,bet365,Faris,0.5158,0.3863,0.9945,0.5952,0.6481,,Liverpool,Arsenal
+KNN,non_market,Faris,0.4842,0.3622,1.028,0.6168,0.614,"{""n_neighbors"": 200, ""weights"": ""uniform""}",Liverpool,Arsenal
+KNN,market,Faris,0.5039,0.3934,1.0063,0.6023,0.653,"{""n_neighbors"": 100, ""weights"": ""uniform""}",Liverpool,Man City
+KNN,combined,Faris,0.5013,0.3881,1.0191,0.6105,0.6344,"{""n_neighbors"": 75, ""weights"": ""uniform""}",Man City,Arsenal

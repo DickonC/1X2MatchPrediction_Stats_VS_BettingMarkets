@@ -41,7 +41,7 @@ Steps 1–2: done jointly. Step 4 and the report: to be split.
 
 ## Open questions / decisions
 1. ~~Always-Home vs always-away~~: **Always-Home** (confirmed).
-2. **Always-Home probabilities** for log loss / Brier / AUC: **Faris to decide** (one option: use the train class frequencies).
+2. ~~Always-Home probabilities~~: **decided:** the train class frequencies (H .460 / D .243 / A .297) for every match, so ROC-AUC = 0.5 by construction (see Step 3, Faris's checklist).
 3. ~~Tuning protocol~~: **decided:** fit on train, pick hyperparameters by val log loss, evaluate that model once on test. **No refit.** Faris uses the same (see Step 3).
 4. ~~EloDiff/ProbHome collinearity~~: noted in Step 3 under "Notes for the report".
 5. **UMAP visualisation + accuracy per test season (drift check):** **Joseph** (with the rest of the group).
